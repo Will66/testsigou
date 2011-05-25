@@ -1,0 +1,22 @@
+#Graphics Settings
+#Fri Apr 15 17:59:49 BST 2011
+hide\ nodes=none
+show\ node\ labels=labels
+arc\ transparency=0.5
+fade\ old\ events=0.0
+arc\ width\ factor=1.0
+ghost\ previous\ slice=false
+node\ scale\ factor=1.0
+layout\ height=400
+node\ label\ bg\ trans=0.5
+node\ transparency=0.5
+arc\ labels=none
+arrow\ style=arrow at end
+flash\ new\ events=0.0
+layout\ width=500
+hide\ arcs=none
+show\ stats=true
+node\ label\ cutoff=0.0
+AntiAlias\ graphics=true
+cluster\ transparency=0.5
+curvy\ arcs=false

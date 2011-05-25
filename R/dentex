@@ -1,0 +1,5 @@
+require(graphics); require(utils)
+
+hc <- hclust(dist(USArrests), "ave")
+hc
+

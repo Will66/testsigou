@@ -1,0 +1,25 @@
+library(igraph)
+library(Cairo)
+
+rm(list=ls(all=TRUE))
+
+setwd("~/Desktop/wsanalysis/net")
+# memberships <- list()
+
+G <- read.graph("infx.net", format="pajek")
+# G
+# is.simple(gs)
+x <- degree(G)
+# plot(x)
+# G <- simplify(G)
+# # 
+# G <- minimum.spanning.tree(G)
+
+par(mfrow=c(2,2))
+
+be1 <- betweenness(G)
+plot(be1)
+cl1 <- closeness(G)
+plot(cl1)
+
+plot(cl1,be1)
